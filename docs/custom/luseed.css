@@ -1,0 +1,21 @@
+h1 {
+ color: rgba(89, 169, 51, 1);
+}
+
+.page-wrapper:before {
+  content: " ";
+  background: url(../../assets/planty.svg);
+  display: block;
+  margin: 0 auto;
+  height: 76px;
+  width: 76px;
+  background-size: contain;
+}
+
+i.fa.fa-angle-right, .book-summary ul.summary li.active>a {
+  color: rgba(89, 169, 51, 1);
+}
+
+.navigation:hover {
+  background: rgba(89, 169, 51, 0.07);
+}
